@@ -1,13 +1,15 @@
 # Foodie_assignment
 
-This repo contains an example Automation Cypress Test with Cucumber and Gherkin on base url : https://app-staging.food.ee/team-order/8lW9umVBhBBcTGor 
+This repo contains an example Automation Cypress Test with Cucumber and Gherkin on 
+  base url : https://app-staging.food.ee/team-order/8lW9umVBhBBcTGor 
+
 To Run the Test :
-1. go to the project directory called: cypress_automation 
-2. Run command:   npx cypress open    to open Cypress
-3. select the Feature file FoodieTest.feature from the list there and run that.
+  1. go to the project directory called: cypress_automation 
+  2. Run command:   npx cypress open    to open Cypress
+  3. select the Feature file FoodieTest.feature from the list there and run that.
 
 There are 6 JS Files under the project that are the definicions step files to locate elements. They are divided according each Test in the feature file.  
-FoodieTC1 , FoodieTC2, FoodieTC3, FoodieTC4, FoodieTC5, FoodieTC6
+  FoodieTC1 , FoodieTC2, FoodieTC3, FoodieTC4, FoodieTC5, FoodieTC6
 
 
 => Configurations: 
