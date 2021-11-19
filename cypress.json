@@ -1,0 +1,4 @@
+{
+  "baseUrl": "https://app-staging.food.ee/team-order/8lW9umVBhBBcTGor",
+  "testFiles": "**/*.{feature,features}"
+}
