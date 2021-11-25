@@ -53,9 +53,3 @@ package.json file is :
                   "nonGlobalStepDefinitions": true
                 }
               }
-              
-
-in the dir : node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js :
-
-    line 199:     // throw new Error(`Step implementation missing for: ${stepText}`);
-    should be commented. 
