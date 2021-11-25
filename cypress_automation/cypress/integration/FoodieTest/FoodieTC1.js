@@ -2,13 +2,12 @@ import { Given, When, Then, And} from 'cypress-cucumber-preprocessor/steps'
 
 const url = 'https://app-staging.food.ee/team-order/8lW9umVBhBBcTGor'
 
-Given('I Navigate to "https://app-staging.food.ee/team-order/8lW9umVBhBBcTGor"', () => {
+Given('I Navigate to {string}', (url) => {
   
   cy.visit(url);
 })
 
 When('Presented with the signing modal',() => {
-  cy.visit(url);
   cy.get('span').should('have.class', 'rd-ui-base-item__text'); //displays the dialouge box
 }) //end of step
 

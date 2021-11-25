@@ -21,7 +21,7 @@ When('I select multiple items with no options',() => {
   cy.get('button.rd-ui-button.rd-ui-button--icon.rd-ui-button--text').eq(1).click(); //increase the number of items
 }) //end of step
 
-Then('I am unable to exceed the budgets',() => {
+Then("I am unable to exceed the budget",() => {
 
   cy.get('button.rd-ui-button.rd-ui-button_primary.rd-ui-button--block.fde-customize-order-item-button').should('be.disabled'); //The add button is disabled
 }) //end of step
